@@ -39,6 +39,7 @@
         <property name="basedir" value="${basedir}"/>
     -->
 
+
     <property name="fileExtensions" value="java, properties, xml"/>
 
     <!-- Checks whether files end with a new line.                        -->
