@@ -1,5 +1,7 @@
 package io.mohsinkd786.dtos;
 
+import io.mohsinkd786.checkout.CODPayment;
+
 public class Order {
 
     private int id;

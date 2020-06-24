@@ -13,7 +13,7 @@ public class BaseTest {
     }
 
     protected Order createOrderStub(int seed) {
-        Order requestedOrder = OrderBuilder.withSeed(1);
+        Order requestedOrder = OrderBuilder.withSeed(seed);
         return requestedOrder;
     }
 }

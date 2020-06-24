@@ -16,10 +16,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="shopping-cart" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="productservice" target="1.5" />
+      <module name="shopping-cart" target="1.8" />
       <module name="shoppingcart" target="1.5" />
     </bytecodeTargetLevel>
   </component>
