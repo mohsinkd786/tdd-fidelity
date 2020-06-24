@@ -1,4 +1,4 @@
-package io.mohskinkd786.products;
+package io.mohsinkd786.products;
 
 import io.mohsinkd786.dtos.Product;
 
