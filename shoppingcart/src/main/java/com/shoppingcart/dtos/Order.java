@@ -9,6 +9,7 @@ public class Order {
     private double totalPrice;
     private int quantity;
     private String paymentMode;
+    private Payment paymentDetail;
 
     public int getId() {
         return id;
@@ -50,4 +51,11 @@ public class Order {
         this.paymentMode = paymentMode;
     }
 
+    public void setPaymentDetail(Payment paymentDetail) {
+        this.paymentDetail = paymentDetail;
+    }
+
+    public Payment getPaymentDetail() {
+        return paymentDetail;
+    }
 }

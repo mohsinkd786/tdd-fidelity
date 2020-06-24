@@ -2,6 +2,7 @@ package com.shoppingcart.services;
 
 import com.shoppingcart.BaseTest;
 import com.shoppingcart.dtos.Order;
+import com.shoppingcart.services.builders.CardPaymentBuilder;
 import com.shoppingcart.services.builders.OrderBuilder;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -10,7 +11,11 @@ public class OrderServiceTest extends BaseTest {
 
     @Test
     void testCreateOrder() {
-        Payment payment = new CardPayment();
+        Payment payment = new CardPaymentBuilder()
+                .withNameOnCard("Anna")
+                .withPaymentStatus(true)
+                .withAccountNumber("12345678")
+                .withBankName("CITI BANK").build();
         OrderProcessingService processingService = new OrderProcessingService();
         processingService.setPayment(payment);
 
@@ -20,6 +25,6 @@ public class OrderServiceTest extends BaseTest {
         Order result = orderService.createOrder(order);
 
         Assertions.assertTrue(result.getStatus());
-        Assertions.assertEquals("CASH", result.getPaymentMode());
+        Assertions.assertEquals("CARD", result.getPaymentMode());
     }
 }
