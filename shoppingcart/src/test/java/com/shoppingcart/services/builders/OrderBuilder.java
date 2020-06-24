@@ -16,7 +16,7 @@ public final class OrderBuilder {
         return new OrderBuilder()
                 .withId(seed)
                 .withStatus(false)
-                .withPaymentMode("CARD" + seed)
+                .withPaymentMode("CASH")
                 .withQuantity(seed)
                 .withTotalPrice(seed)
                 .build();

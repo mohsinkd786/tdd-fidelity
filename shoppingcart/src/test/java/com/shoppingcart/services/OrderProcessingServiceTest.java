@@ -2,11 +2,16 @@ package com.shoppingcart.services;
 
 import com.shoppingcart.BaseTest;
 import com.shoppingcart.dtos.Order;
+import com.shoppingcart.dtos.Product;
 import com.shoppingcart.services.builders.CardPaymentBuilder;
 import com.shoppingcart.services.builders.OrderBuilder;
+import com.shoppingcart.services.builders.ProductBuilder;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import static org.mockito.Matchers.any;
 import static org.mockito.Mockito.mock;
@@ -62,5 +67,4 @@ public class OrderProcessingServiceTest extends BaseTest {
         Assertions.assertTrue(result.getStatus());
         Assertions.assertEquals("CASH", result.getPaymentMode());
     }
-
 }
