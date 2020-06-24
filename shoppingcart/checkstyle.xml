@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE checkstyle-packages PUBLIC
+  "-//Checkstyle//DTD Package Names Configuration 1.0//EN"
+  "https://checkstyle.org/dtds/packages_1_0.dtd">
+
+<module name="Checker">
+  <module name="TreeWalker">
+    <module name="AvoidStarImport"/>
+  </module>
+</module>
