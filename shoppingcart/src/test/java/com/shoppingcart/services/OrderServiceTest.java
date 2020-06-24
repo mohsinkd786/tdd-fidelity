@@ -32,7 +32,8 @@ public class OrderServiceTest extends BaseTest {
         Assertions.assertTrue(result.getStatus());
         Assertions.assertEquals("CARD", result.getPaymentMode());
     }
-/**
+
+    @Test
     void testProductListOfNewOrder() {
         Product product1 = new ProductBuilder().withId(1).withName("Apple").withPrice(100).withQuantity(1).build();
         Product product2 = new ProductBuilder().withId(1).withName("Orange").withPrice(70).withQuantity(2).build();
@@ -47,10 +48,12 @@ public class OrderServiceTest extends BaseTest {
         Order order = new OrderBuilder().withId(1).build();
         Order result = orderService.addProducts(order, products);
 
-        Assertions.assertEquals(2, result.getProducts.size());
+        Assertions.assertEquals(2, result.getProducts().size());
         Assertions.assertEquals(3, result.getQuantity());
+        Assertions.assertEquals(170, result.getTotalPrice());
     }
 
+    @Test
     void testProductListOfExistingOrder() {
         Product product1 = new ProductBuilder().withId(1).withName("Apple").withPrice(100).withQuantity(1).build();
         Product product2 = new ProductBuilder().withId(1).withName("Orange").withPrice(70).withQuantity(2).build();
@@ -65,8 +68,9 @@ public class OrderServiceTest extends BaseTest {
         Order order = createOrderWithDetails(10, 1000, null, false, null);
         Order result = orderService.addProducts(order, products);
 
-        Assertions.assertEquals(2, result.getProducts.size());
+        Assertions.assertEquals(2, result.products.size());
         Assertions.assertEquals(13, result.getQuantity());
+        Assertions.assertEquals(1170, result.getTotalPrice());
     }
- */
+
 }
