@@ -3,9 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="231b8131-932a-4325-9f14-827ba8280853" name="Default Changelist" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> Added code to add/remove items
       <change beforePath="$PROJECT_DIR$/shopping-cart.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-cart.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/mohsinkd786/checkout/CardPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/mohsinkd786/checkout/CardPayment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/mohsinkd786/checkout/OrderProcessingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/mohsinkd786/checkout/OrderProcessingService.java" afterDir="false" />
@@ -32,9 +40,13 @@
       <change beforePath="$PROJECT_DIR$/target/test-classes/io/mohsinkd786/checkout/OrderServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/mohsinkd786/checkout/OrderServiceTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/io/mohsinkd786/checkout/StaticMethodTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/mohsinkd786/checkout/StaticMethodTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/io/mohsinkd786/checkout/builders/OrderBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/mohsinkd786/checkout/builders/OrderBuilder.class" afterDir="false" />
+<<<<<<< HEAD
 =======
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 >>>>>>> Config changes
+=======
+>>>>>>> Added code to add/remove items
+>>>>>>> Added code to add/remove items
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +71,10 @@
     <option name="isMigrated" value="true" />
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> Added code to add/remove items
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -177,7 +192,12 @@
       </file>
     </leaf>
   </component>
+<<<<<<< HEAD
 >>>>>>> Config changes
+=======
+=======
+>>>>>>> Added code to add/remove items
+>>>>>>> Added code to add/remove items
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -188,8 +208,11 @@
   </component>
   <component name="Git.Settings">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
 =======
+=======
+>>>>>>> Added code to add/remove items
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -212,7 +235,13 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+<<<<<<< HEAD
 >>>>>>> Config changes
+=======
+=======
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+>>>>>>> Added code to add/remove items
+>>>>>>> Added code to add/remove items
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
@@ -245,12 +274,15 @@
     </option>
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="ProjectId" id="1dkoTysafi1K2iGc3g1cEScpCi7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
 =======
+=======
+>>>>>>> Added code to add/remove items
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="58" />
     <option name="width" value="1774" />
@@ -349,7 +381,17 @@
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
+<<<<<<< HEAD
 >>>>>>> Config changes
+=======
+=======
+  <component name="ProjectId" id="1dkoTysafi1K2iGc3g1cEScpCi7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+>>>>>>> Added code to add/remove items
+>>>>>>> Added code to add/remove items
   </component>
   <component name="PropertiesComponent">
     <property name="LombokPluginEnabledInProject" value="true" />
@@ -484,6 +526,7 @@
     <option name="totallyTimeSpent" value="12039000" />
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -550,6 +593,8 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/shopping_cart$All_in_shopping_cart.ic" NAME="All in shopping-cart Coverage Results" MODIFIED="1592981912721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
 =======
+=======
+>>>>>>> Added code to add/remove items
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1792" height="1043" extended-state="6" />
     <layout>
@@ -743,7 +788,77 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 >>>>>>> Config changes
+=======
+=======
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1592980034918">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state x="533" y="117" key="#com.intellij.ide.util.MemberChooser/0.23.1440.807@0.23.1440.807" timestamp="1592980034918" />
+    <state width="431" height="466" key="DebuggerActiveHint" timestamp="1592980498633">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state width="431" height="466" key="DebuggerActiveHint/0.23.1440.807@0.23.1440.807" timestamp="1592980498633" />
+    <state width="1398" height="349" key="GridCell.Tab.0.bottom" timestamp="1592981894012">
+      <screen x="0" y="23" width="1440" height="805" />
+    </state>
+    <state width="1398" height="349" key="GridCell.Tab.0.bottom/0.23.1440.805@0.23.1440.805" timestamp="1592981894012" />
+    <state width="1398" height="237" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1592981401278" />
+    <state width="1398" height="349" key="GridCell.Tab.0.center" timestamp="1592981894006">
+      <screen x="0" y="23" width="1440" height="805" />
+    </state>
+    <state width="1398" height="349" key="GridCell.Tab.0.center/0.23.1440.805@0.23.1440.805" timestamp="1592981894006" />
+    <state width="1398" height="237" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1592981401277" />
+    <state width="1398" height="349" key="GridCell.Tab.0.left" timestamp="1592981893995">
+      <screen x="0" y="23" width="1440" height="805" />
+    </state>
+    <state width="1398" height="349" key="GridCell.Tab.0.left/0.23.1440.805@0.23.1440.805" timestamp="1592981893995" />
+    <state width="1398" height="237" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1592981401277" />
+    <state width="1398" height="349" key="GridCell.Tab.0.right" timestamp="1592981894012">
+      <screen x="0" y="23" width="1440" height="805" />
+    </state>
+    <state width="1398" height="349" key="GridCell.Tab.0.right/0.23.1440.805@0.23.1440.805" timestamp="1592981894012" />
+    <state width="1398" height="237" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1592981401278" />
+    <state width="1398" height="257" key="GridCell.Tab.1.bottom" timestamp="1592980709544">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state width="1398" height="257" key="GridCell.Tab.1.bottom/0.23.1440.807@0.23.1440.807" timestamp="1592980709544" />
+    <state width="1398" height="257" key="GridCell.Tab.1.center" timestamp="1592980709543">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state width="1398" height="257" key="GridCell.Tab.1.center/0.23.1440.807@0.23.1440.807" timestamp="1592980709543" />
+    <state width="1398" height="257" key="GridCell.Tab.1.left" timestamp="1592980709542">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state width="1398" height="257" key="GridCell.Tab.1.left/0.23.1440.807@0.23.1440.807" timestamp="1592980709542" />
+    <state width="1398" height="257" key="GridCell.Tab.1.right" timestamp="1592980709543">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state width="1398" height="257" key="GridCell.Tab.1.right/0.23.1440.807@0.23.1440.807" timestamp="1592980709543" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/io/mohsinkd786/dtos/Order.java</url>
+          <line>67</line>
+          <properties class="io.mohsinkd786.dtos.Order" method="removeItem">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/shopping_cart$All_in_shopping_cart.ic" NAME="All in shopping-cart Coverage Results" MODIFIED="1592981912721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+>>>>>>> Added code to add/remove items
+>>>>>>> Added code to add/remove items
   </component>
   <component name="masterDetails">
     <states>
