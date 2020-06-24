@@ -92,7 +92,7 @@
                     <targetJdk>1.8</targetJdk>
                 </configuration>
 
-                <executions>
+                <!-- <executions>
                     <execution>
                         <phase>validate</phase>
                         <goals>
@@ -100,7 +100,7 @@
                             <goal>cpd-check</goal>
                         </goals>
                     </execution>
-                </executions>
+                </executions> -->
             </plugin>
 
             <!-- Surefire -->
