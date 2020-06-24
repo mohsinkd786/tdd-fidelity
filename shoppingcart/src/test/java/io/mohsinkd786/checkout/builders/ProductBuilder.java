@@ -1,9 +1,8 @@
 package io.mohsinkd786.checkout.builders;
 
-import io.mohsinkd786.dtos.Order;
 import io.mohsinkd786.dtos.Product;
 
-public class ProductBuilder {
+public final class ProductBuilder {
 
     private int id;
     private int quantity;
@@ -11,11 +10,12 @@ public class ProductBuilder {
     private String name;
 
 
-    public static Product withSeed(int seed) {
+    public static Product withSeed(int seed,String name) {
         return new ProductBuilder()
                 .withId(seed)
                 .withQuantity(seed)
                 .withPrice(seed)
+                .withName(name)
                 .build();
     }
 

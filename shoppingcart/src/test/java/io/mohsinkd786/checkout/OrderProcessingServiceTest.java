@@ -2,6 +2,7 @@ package io.mohsinkd786.checkout;
 
 import io.mohsinkd786.BaseTest;
 import io.mohsinkd786.dtos.Order;
+import io.mohsinkd786.dtos.Product;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
@@ -23,6 +24,7 @@ public class OrderProcessingServiceTest extends BaseTest {
         processingService.setPayment(payment);
 
         Order order = createOrderStub(1);
+
         Order result = processingService.processOrder(order);
 
         Assertions.assertTrue(result.isStatus());
