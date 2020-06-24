@@ -16,7 +16,6 @@ public class ProductBuilder {
                 .withId(seed)
                 .withQuantity(seed)
                 .withPrice(seed)
-                .withName(true)
                 .build();
     }
 
