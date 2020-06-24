@@ -1,6 +1,9 @@
 package io.mohsinkd786.checkout.builders;
 
+import io.mohsinkd786.dtos.Item;
 import io.mohsinkd786.dtos.Order;
+
+import java.util.List;
 
 public final class OrderBuilder {
 
@@ -54,7 +57,6 @@ public final class OrderBuilder {
         order.setTotalPrice(totalPrice);
         order.setQuantity(quantity);
         order.setPaymentMode(paymentMode);
-
         return order;
     }
 }

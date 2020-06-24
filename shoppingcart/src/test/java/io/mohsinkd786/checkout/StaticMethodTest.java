@@ -28,7 +28,7 @@ public class StaticMethodTest {
 
     }
 
-    @Test
+    //@Test
     public void testFinalMethod() {
 
         OrderProcessingService orderProcessingService = PowerMockito.mock(OrderProcessingService.class);

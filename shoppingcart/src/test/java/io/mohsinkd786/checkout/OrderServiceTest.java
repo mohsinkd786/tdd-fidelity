@@ -10,7 +10,7 @@ import org.junit.Test;
 public class OrderServiceTest extends BaseTest {
 
     @Test
-    void testCreateOrder() {
+    public void testCreateOrder() {
         Payment payment = new CardPayment();
 
         OrderProcessingService processingService = new OrderProcessingService();

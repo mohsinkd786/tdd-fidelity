@@ -1,6 +1,11 @@
 package io.mohsinkd786.dtos;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Order {
+
+    private final List<Item> items;
 
     private int id;
 
@@ -11,6 +16,10 @@ public class Order {
     private double totalPrice;
 
     private String paymentMode;
+
+    public Order(){
+        items= new ArrayList<Item>();
+    }
 
     public String getPaymentMode() {
         return paymentMode;
@@ -50,5 +59,19 @@ public class Order {
 
     public void setTotalPrice(double totalPrice) {
         this.totalPrice = totalPrice;
+    }
+
+    public void addItem(Item item){
+        items.add(item);
+    }
+
+    public void removeItem(Item item){
+        if (items.contains(item)){
+            items.remove(item);
+        }
+    }
+
+    public List<Item> getItems() {
+        return items;
     }
 }

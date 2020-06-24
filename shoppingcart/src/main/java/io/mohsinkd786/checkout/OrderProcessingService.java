@@ -6,6 +6,10 @@ public class OrderProcessingService implements ProcessingService {
 
     private Payment payment;
 
+    public OrderProcessingService(){
+        payment=new CodPayment();
+    }
+
     public Payment getPayment() {
         return payment;
     }
