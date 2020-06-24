@@ -102,7 +102,7 @@
             </plugin>
 
             <!-- PMD -->
-            <plugin>
+            <!--<plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-pmd-plugin</artifactId>
                 <version>3.7</version>
@@ -125,7 +125,7 @@
                 </executions>
             </plugin>
 
-
+-->
             <!-- Jacoco -->
             <plugin>
                 <groupId>org.jacoco</groupId>
@@ -151,7 +151,7 @@
     </build>
 
 
-    <!--<reporting>
+    <reporting>
         <plugins>
 
             <plugin>
@@ -177,5 +177,5 @@
                 </configuration>
             </plugin>
         </plugins>
-    </reporting> -->
+    </reporting>
 </project>
