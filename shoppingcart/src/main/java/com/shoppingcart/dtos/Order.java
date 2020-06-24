@@ -1,7 +1,9 @@
 package com.shoppingcart.dtos;
 
-import com.shoppingcart.services.CardPayment;
 import com.shoppingcart.services.Payment;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Order {
     private int id;
@@ -10,6 +12,7 @@ public class Order {
     private int quantity;
     private String paymentMode;
     private Payment paymentDetail;
+    public List<Product> products = new ArrayList();
 
     public int getId() {
         return id;
@@ -57,5 +60,13 @@ public class Order {
 
     public Payment getPaymentDetail() {
         return paymentDetail;
+    }
+
+    public List<Product> getProducts() {
+        return products;
+    }
+
+    public void addProducts(List<Product> products) {
+        this.products.addAll(products);
     }
 }
