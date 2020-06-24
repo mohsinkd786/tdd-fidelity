@@ -16,15 +16,15 @@ public class OrderProcessingService implements ProcessingService {
 
     @Override
     public Order processOrder(Order order) {
-        makePayment(order);
+        Order updatedOrder = makePayment(order);
 
-        if (makePayment(order)) {
-            order.setStatus(true);
+        if (updatedOrder.getPaymentDetail() != null && updatedOrder.getPaymentDetail().isPaymentStatus()) {
+            updatedOrder.setStatus(true);
         }
-        return order;
+        return updatedOrder;
     }
 
-    public boolean makePayment(Order order) {
+    public Order makePayment(Order order) {
         return payment.makePayment(order);
     }
 

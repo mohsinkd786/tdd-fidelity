@@ -18,13 +18,14 @@ public class BaseTest {
         return requestOrder;
     }
 
-    public Order createOrderWithDetails(int quantity, double price, Payment paymentDetail, boolean status) {
+    public Order createOrderWithDetails(int quantity, double price, Payment paymentDetail, boolean status, String paymentMode) {
         return  new OrderBuilder()
                 .withQuantity(quantity)
                 .withTotalPrice(price)
                 .withId(1)
                 .withStatus(status)
                 .withPaymentDetail(paymentDetail)
+                .withPaymentMode(paymentMode)
                 .build();
     }
 }
