@@ -8,13 +8,15 @@ public interface ProductSerivce {
 	 * @param product
 	 * @return product
 	 */
-    Product addproduct(Product product);
+    boolean addproduct(Product product);
     
     /**
 	 * @param product
 	 * @return product
 	 */
-    Product removeproduct(Product product);
+    boolean removeproduct(Product product);
+
+
     
 
 }

@@ -5,15 +5,15 @@ import io.mohsinkd786.dtos.Product;
 public class ProductServiceImpl implements ProductSerivce {
 
 	@Override
-	public Product addproduct(Product product) {
+	public boolean addproduct(Product product) {
 		// TODO Auto-generated method stub
-		return null;
+		return true;
 	}
 
 	@Override
-	public Product removeproduct(Product product) {
+	public boolean removeproduct(Product product) {
 		// TODO Auto-generated method stub
-		return null;
+		return true;
 	}
 
 }

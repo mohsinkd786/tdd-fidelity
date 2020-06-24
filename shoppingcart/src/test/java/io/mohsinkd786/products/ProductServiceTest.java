@@ -15,20 +15,22 @@ import io.mohsinkd786.dtos.Order;
 public class ProductServiceTest extends BaseTest {
 	
 	@Test
-    void testCreateOrder() {
-        Payment payment = new CardPayment();
+    void testaddproduct() {
 
-        OrderProcessingService processingService = new OrderProcessingService();
-
-        processingService.setPayment(payment);
-
-        OrderService orderService = new OrderServiceImpl(processingService);
-
-        Order order = createOrderStub(1); // create object via Builder
+	    ProductSerivce productSerivce=new ProductServiceImpl();
         Product product = createProductStub(1,"beer");
-        Order savedOrder = orderService.createOrder(order);
+        boolean isAdded= productSerivce.addproduct(product);
+        Assert.assertTrue(isAdded);
 
-        Assert.assertTrue(savedOrder.isStatus());
+    }
+
+    @Test
+    void testremoveproduct() {
+
+        ProductSerivce productSerivce=new ProductServiceImpl();
+        Product product = createProductStub(1,"beer");
+        boolean isAdded= productSerivce.removeproduct(product);
+        Assert.assertTrue(isAdded);
 
     }
 
