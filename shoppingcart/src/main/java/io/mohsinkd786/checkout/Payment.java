@@ -2,7 +2,7 @@ package io.mohsinkd786.checkout;
 
 import io.mohsinkd786.dtos.Order;
 
-public interface OrderService {
+public interface Payment {
 
-    Order createOrder(Order order);
+    boolean makePayment(Order order);
 }
