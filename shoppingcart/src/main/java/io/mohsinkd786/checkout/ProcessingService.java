@@ -8,7 +8,7 @@ public interface ProcessingService {
 
     Order processOrder(Order order);
 
-    void addOrder(Order order1);
+    Order addOrder(Order order1);
 
     Boolean deleteOrder(Order orderToDelete);
 

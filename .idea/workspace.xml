@@ -23,56 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9b052e8-b92f-4088-9794-139bc0b85e82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Mocking.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_27_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_api_mockito2_2_0_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_api_support_2_0_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_core_2_0_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_module_junit4_2_0_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_module_junit4_common_2_0_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_reflect_2_0_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_6_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_6_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_7_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_28_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingcart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingcart/shopping-cart.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/shopping-cart.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shoppingcart/src/main/java/io/mohsinkd786/checkout/OrderProcessingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/src/main/java/io/mohsinkd786/checkout/OrderProcessingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shoppingcart/src/main/java/io/mohsinkd786/checkout/ProcessingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/src/main/java/io/mohsinkd786/checkout/ProcessingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingcart/src/main/java/io/mohsinkd786/dtos/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/src/main/java/io/mohsinkd786/dtos/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingcart/src/test/java/io/mohsinkd786/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/src/test/java/io/mohsinkd786/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shoppingcart/src/test/java/io/mohsinkd786/checkout/OrderProcessingServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/src/test/java/io/mohsinkd786/checkout/OrderProcessingServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingcart/target/classes/io/mohsinkd786/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/classes/io/mohsinkd786/A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingcart/target/classes/io/mohsinkd786/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/classes/io/mohsinkd786/Hello.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingcart/target/classes/io/mohsinkd786/checkout/CardPayment.class" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/classes/io/mohsinkd786/checkout/CardPayment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shoppingcart/target/classes/io/mohsinkd786/checkout/OrderProcessingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/classes/io/mohsinkd786/checkout/OrderProcessingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingcart/target/classes/io/mohsinkd786/checkout/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/classes/io/mohsinkd786/checkout/OrderService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingcart/target/classes/io/mohsinkd786/checkout/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/classes/io/mohsinkd786/checkout/OrderServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingcart/target/classes/io/mohsinkd786/checkout/Payment.class" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/classes/io/mohsinkd786/checkout/Payment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shoppingcart/target/classes/io/mohsinkd786/checkout/ProcessingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/classes/io/mohsinkd786/checkout/ProcessingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingcart/target/classes/io/mohsinkd786/checkout/UpiPayment.class" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/classes/io/mohsinkd786/checkout/UpiPayment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingcart/target/classes/io/mohsinkd786/dtos/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/classes/io/mohsinkd786/dtos/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingcart/target/test-classes/META-INF/shopping-cart.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingcart/target/test-classes/io/mohsinkd786/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/test-classes/io/mohsinkd786/BaseTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shoppingcart/target/test-classes/io/mohsinkd786/checkout/OrderProcessingServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/test-classes/io/mohsinkd786/checkout/OrderProcessingServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingcart/target/test-classes/io/mohsinkd786/checkout/OrderServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/test-classes/io/mohsinkd786/checkout/OrderServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingcart/target/test-classes/io/mohsinkd786/checkout/StaticMethodTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/test-classes/io/mohsinkd786/checkout/StaticMethodTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingcart/target/test-classes/io/mohsinkd786/checkout/builders/OrderBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/test-classes/io/mohsinkd786/checkout/builders/OrderBuilder.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,6 +135,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderProcessingServiceTest.testProcessOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shopping-cart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.mohsinkd786.checkout.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.mohsinkd786.checkout" />
+      <option name="MAIN_CLASS_NAME" value="io.mohsinkd786.checkout.OrderProcessingServiceTest" />
+      <option name="METHOD_NAME" value="testProcessOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderProcessingServiceTest.testProcessOrderWithDefaultPaymentMode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shopping-cart" />
       <extension name="coverage">
@@ -189,22 +162,6 @@
       <option name="PACKAGE_NAME" value="io.mohsinkd786.checkout" />
       <option name="MAIN_CLASS_NAME" value="io.mohsinkd786.checkout.OrderProcessingServiceTest" />
       <option name="METHOD_NAME" value="testProcessOrderWithDefaultPaymentMode" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderProcessingServiceTest.testProcessOrderWithUPIPaymentMode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="shopping-cart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.mohsinkd786.checkout.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.mohsinkd786.checkout" />
-      <option name="MAIN_CLASS_NAME" value="io.mohsinkd786.checkout.OrderProcessingServiceTest" />
-      <option name="METHOD_NAME" value="testProcessOrderWithUPIPaymentMode" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -290,19 +247,19 @@
     <list>
       <item itemvalue="Maven.shopping-cart [clean,install]" />
       <item itemvalue="Maven.product-service [site]" />
-      <item itemvalue="JUnit.OrderProcessingServiceTest.testProcessOrderWithUPIPaymentMode" />
-      <item itemvalue="JUnit.OrderProcessingServiceTest.testAddOrder" />
-      <item itemvalue="JUnit.OrderProcessingServiceTest.testDeleteOrder" />
       <item itemvalue="JUnit.OrderProcessingServiceTest" />
       <item itemvalue="JUnit.OrderProcessingServiceTest.testProcessOrderWithDefaultPaymentMode" />
+      <item itemvalue="JUnit.OrderProcessingServiceTest.testProcessOrder" />
+      <item itemvalue="JUnit.OrderProcessingServiceTest.testAddOrder" />
+      <item itemvalue="JUnit.OrderProcessingServiceTest.testDeleteOrder" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.OrderProcessingServiceTest" />
-        <item itemvalue="JUnit.OrderProcessingServiceTest.testProcessOrderWithDefaultPaymentMode" />
-        <item itemvalue="JUnit.OrderProcessingServiceTest.testDeleteOrder" />
         <item itemvalue="JUnit.OrderProcessingServiceTest.testAddOrder" />
-        <item itemvalue="JUnit.OrderProcessingServiceTest.testProcessOrderWithUPIPaymentMode" />
+        <item itemvalue="JUnit.OrderProcessingServiceTest.testDeleteOrder" />
+        <item itemvalue="JUnit.OrderProcessingServiceTest.testProcessOrderWithDefaultPaymentMode" />
+        <item itemvalue="JUnit.OrderProcessingServiceTest.testProcessOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -354,59 +311,97 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="389" y="195" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.720@0.0.1280.720" timestamp="1593020866043" />
-    <state width="419" height="438" key="DebuggerActiveHint" timestamp="1593020730112">
+    <state width="423" height="438" key="DebuggerActiveHint" timestamp="1593077005120">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="419" height="438" key="DebuggerActiveHint/0.0.1280.720@0.0.1280.720" timestamp="1593020730112" />
-    <state width="1237" height="161" key="GridCell.Tab.0.bottom" timestamp="1593029162795">
+    <state width="423" height="438" key="DebuggerActiveHint/0.0.1280.720@0.0.1280.720" timestamp="1593077005120" />
+    <state width="1237" height="219" key="GridCell.Tab.0.bottom" timestamp="1593077319200">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="161" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1593029162795" />
-    <state width="1237" height="161" key="GridCell.Tab.0.center" timestamp="1593029162795">
+    <state width="1237" height="219" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1593077319200" />
+    <state width="1237" height="219" key="GridCell.Tab.0.center" timestamp="1593077319200">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="161" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1593029162795" />
-    <state width="1237" height="161" key="GridCell.Tab.0.left" timestamp="1593029162795">
+    <state width="1237" height="219" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1593077319200" />
+    <state width="1237" height="219" key="GridCell.Tab.0.left" timestamp="1593077319200">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="161" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1593029162795" />
-    <state width="1237" height="161" key="GridCell.Tab.0.right" timestamp="1593029162795">
+    <state width="1237" height="219" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1593077319200" />
+    <state width="1237" height="219" key="GridCell.Tab.0.right" timestamp="1593077319200">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="161" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1593029162795" />
-    <state width="1237" height="219" key="GridCell.Tab.1.bottom" timestamp="1593029133537">
+    <state width="1237" height="219" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1593077319200" />
+    <state width="1237" height="219" key="GridCell.Tab.1.bottom" timestamp="1593077272685">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="219" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1593029133537" />
-    <state width="1237" height="219" key="GridCell.Tab.1.center" timestamp="1593029133537">
+    <state width="1237" height="219" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1593077272685" />
+    <state width="1237" height="219" key="GridCell.Tab.1.center" timestamp="1593077272685">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="219" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1593029133537" />
-    <state width="1237" height="219" key="GridCell.Tab.1.left" timestamp="1593029133537">
+    <state width="1237" height="219" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1593077272685" />
+    <state width="1237" height="219" key="GridCell.Tab.1.left" timestamp="1593077272684">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="219" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1593029133537" />
-    <state width="1237" height="219" key="GridCell.Tab.1.right" timestamp="1593029133537">
+    <state width="1237" height="219" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1593077272684" />
+    <state width="1237" height="219" key="GridCell.Tab.1.right" timestamp="1593077272685">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="219" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1593029133537" />
-    <state x="297" y="161" key="run.anything.popup" timestamp="1592980503120">
+    <state width="1237" height="219" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1593077272685" />
+    <state x="297" y="161" key="run.anything.popup" timestamp="1593068117587">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="297" y="161" key="run.anything.popup/0.0.1280.720@0.0.1280.720" timestamp="1592980503120" />
+    <state x="297" y="161" key="run.anything.popup/0.0.1280.720@0.0.1280.720" timestamp="1593068117587" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/shoppingcart/src/test/java/io/mohsinkd786/checkout/OrderProcessingServiceTest.java</url>
-          <line>81</line>
+          <line>98</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shoppingcart/src/test/java/io/mohsinkd786/checkout/OrderProcessingServiceTest.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shoppingcart/src/test/java/io/mohsinkd786/checkout/OrderProcessingServiceTest.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shoppingcart/src/main/java/io/mohsinkd786/dao/OrderDao.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shoppingcart/src/main/java/io/mohsinkd786/dao/OrderDao.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shoppingcart/src/test/java/io/mohsinkd786/checkout/OrderProcessingServiceTest.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shoppingcart/src/test/java/io/mohsinkd786/checkout/OrderProcessingServiceTest.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shoppingcart/src/test/java/io/mohsinkd786/checkout/OrderProcessingServiceTest.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Mocking$OrderProcessingServiceTest_testDeleteOrder.ic" NAME="OrderProcessingServiceTest.testDeleteOrder Coverage Results" MODIFIED="1593076969145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.mohsinkd786.checkout.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/tdd_fidelity$CalculatorApiTest.ic" NAME="CalculatorApiTest Coverage Results" MODIFIED="1592819823411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.apis.*</FILTER>
     </SUITE>

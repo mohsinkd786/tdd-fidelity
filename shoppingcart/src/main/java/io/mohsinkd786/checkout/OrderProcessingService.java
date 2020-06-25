@@ -1,5 +1,6 @@
 package io.mohsinkd786.checkout;
 
+import io.mohsinkd786.dao.OrderDao;
 import io.mohsinkd786.dtos.Order;
 
 import java.util.ArrayList;
@@ -9,10 +10,13 @@ public class OrderProcessingService implements ProcessingService {
 
     private Payment payment;
 
+    private OrderDao orderDao;
+
     private List<Order> listOfOrders = new ArrayList<Order>();
 
     public OrderProcessingService() {
         this.payment = new CODPayment();
+        this.orderDao = new OrderDao();
     }
 
     public Payment getPayment() {
@@ -46,18 +50,21 @@ public class OrderProcessingService implements ProcessingService {
 
 
     @Override
-    public void addOrder(Order order) {
-        listOfOrders.add(order);
+    public Order addOrder(Order order) {
+        return orderDao.addOrder(order);
     }
 
     @Override
     public Boolean deleteOrder(Order orderToDelete) {
-
-        return listOfOrders.removeIf(e -> e.getId() == orderToDelete.getId());
+        return orderDao.deleteOrder(orderToDelete);
     }
 
     @Override
     public List<Order> getOrders() {
-        return listOfOrders;
+        return orderDao.getOrders();
+    }
+
+    public void setDao(OrderDao orderDao) {
+        this. orderDao = orderDao;
     }
 }
