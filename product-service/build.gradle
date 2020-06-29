@@ -28,6 +28,8 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
+	compile("ma.glasnost.orika:orika-core:1.5.4")
+	
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
@@ -46,6 +48,7 @@ test {
 cucumber {
 	glue = 'classpath:io.mohsinkd786.cucumber'
 }
+
 
 asciidoctor {
 	inputs.dir snippetsDir
