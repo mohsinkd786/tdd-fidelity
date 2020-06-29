@@ -3,6 +3,7 @@ plugins {
 	id 'io.spring.dependency-management' version '1.0.9.RELEASE'
 	id 'org.asciidoctor.convert' version '1.5.8'
 	id 'java'
+	id "se.thinkcode.cucumber-runner" version "0.0.8"
 }
 
 group = 'io.mohsinkd786'
@@ -40,6 +41,10 @@ dependencies {
 test {
 	outputs.dir snippetsDir
 	useJUnitPlatform()
+}
+
+cucumber {
+	glue = 'classpath:io.mohsinkd786.cucumber'
 }
 
 asciidoctor {
