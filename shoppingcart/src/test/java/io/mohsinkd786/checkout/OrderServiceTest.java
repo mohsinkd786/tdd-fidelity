@@ -2,8 +2,11 @@ package io.mohsinkd786.checkout;
 
 import io.mohsinkd786.BaseTest;
 import io.mohsinkd786.dtos.Order;
-import org.junit.Assert;
-import org.junit.Test;
+//import org.junit.Assert;
+//import org.junit.Test;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertTrue;
 //import org.junit.jupiter.api.Assertions;
 //import org.junit.jupiter.api.Test;
 
@@ -23,7 +26,7 @@ public class OrderServiceTest extends BaseTest {
 
         Order savedOrder = orderService.createOrder(order);
 
-        Assert.assertTrue(savedOrder.isStatus());
+        assertTrue(savedOrder.isStatus());
 
     }
 }

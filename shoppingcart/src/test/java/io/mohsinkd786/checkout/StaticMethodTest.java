@@ -1,21 +1,25 @@
 package io.mohsinkd786.checkout;
 
 
-import org.junit.Assert;
-import org.junit.Ignore;
-import org.junit.Test;
+//import org.junit.Assert;
+//import org.junit.Ignore;
+//import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.junit.runner.RunWith;
+//import org.junit.runner.RunWith;
 import org.powermock.api.mockito.PowerMockito;
 import org.powermock.core.classloader.annotations.PrepareForTest;
-import org.powermock.modules.junit4.PowerMockRunner;
+//import org.powermock.modules.junit4.PowerMockRunner;
 
-//@RunWith(PowerMockRunner.class)
-//@PrepareForTest(fullyQualifiedNames = "io.mohsinkd786.checkout.*")
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+//@ExtendWith(PowerMockRunner.class)
+@PrepareForTest(fullyQualifiedNames = "io.mohsinkd786.checkout.*")
 public class StaticMethodTest {
 
 
-    //@Test
+    @Test
     public void testStaticMethods() {
 
         PowerMockito.mockStatic(OrderProcessingService.class); // only incase of static methods
@@ -24,7 +28,7 @@ public class StaticMethodTest {
 
         String response = OrderProcessingService.defaultPayment();
 
-        Assert.assertEquals(response, "CASH");
+        assertEquals(response, "CASH");
 
     }
 
@@ -37,6 +41,6 @@ public class StaticMethodTest {
 
         boolean isReady = orderProcessingService.readyToShip();
 
-        Assert.assertTrue(isReady);
+        assertTrue(isReady);
     }
 }
