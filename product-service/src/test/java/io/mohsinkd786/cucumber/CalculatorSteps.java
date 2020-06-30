@@ -22,6 +22,7 @@ public class CalculatorSteps {
 
     }
 
+    // This syntax is referred as gherkin
     @Given("^I have a calculator$")
     public void initializeCalculator() throws Throwable {
         calculator = new Calculator();
