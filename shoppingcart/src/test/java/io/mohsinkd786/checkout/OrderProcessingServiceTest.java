@@ -7,7 +7,6 @@ import io.mohsinkd786.dtos.Order;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mock;
 import org.mockito.Mockito;
 
 import java.util.Arrays;
@@ -63,7 +62,7 @@ public class OrderProcessingServiceTest extends BaseTest {
         OrderProcessingService orderProcessingService = new OrderProcessingService();
 
         Order order = new Order();
-        order.setId(1);
+        order.setOrderId(1);
         order.setQuantity(2);
         order.setTotalPrice(1000);
         order.setStatus(true);
@@ -87,7 +86,7 @@ public class OrderProcessingServiceTest extends BaseTest {
         List<Order> listOfOrderReturned = orderProcessingService.getOrders();
         Assertions.assertNotNull(listOfOrderReturned);
         Assertions.assertNotNull(order);
-        Assertions.assertEquals(2, order.getId());
+        Assertions.assertEquals(2, order.getOrderId());
         Assertions.assertEquals(1, listOfOrderReturned.size());
     }
 

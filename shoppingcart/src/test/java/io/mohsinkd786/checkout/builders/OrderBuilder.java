@@ -49,7 +49,7 @@ public final class OrderBuilder {
 
     public Order build() {
         Order order = new Order();
-        order.setId(id);
+        order.setOrderId(id);
         order.setStatus(status);
         order.setTotalPrice(totalPrice);
         order.setQuantity(quantity);

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="io.mohsinkd786.checkout.OrderProcessingServiceTest" time="1.764" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="io.mohsinkd786.checkout.OrderProcessingServiceTest" time="1.253" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\jatin\AppData\Local\Temp\surefire8219439938966190652\surefirebooter3512055139182640987.jar C:\Users\jatin\AppData\Local\Temp\surefire8219439938966190652 2020-06-24T11-47-47_922-jvmRun1 surefire919841157135343673tmp surefire_03839520347167075589tmp"/>
+    <property name="sun.java.command" value="C:\Users\jatin\AppData\Local\Temp\surefire8943330718764763218\surefirebooter490900959942311915.jar C:\Users\jatin\AppData\Local\Temp\surefire8943330718764763218 2020-06-25T15-14-23_554-jvmRun1 surefire5756835086503939309tmp surefire_07072130825635405533tmp"/>
     <property name="surefire.test.class.path" value="D:\jatin\codeSetUp\CleanCodeTraining(TDD)\Mocking\shoppingcart\target\test-classes;D:\jatin\codeSetUp\CleanCodeTraining(TDD)\Mocking\shoppingcart\target\classes;C:\Users\jatin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0-M1\junit-jupiter-engine-5.7.0-M1.jar;C:\Users\jatin\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\jatin\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0-M1\junit-platform-engine-1.7.0-M1.jar;C:\Users\jatin\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\jatin\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0-M1\junit-platform-commons-1.7.0-M1.jar;C:\Users\jatin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0-M1\junit-jupiter-api-5.7.0-M1.jar;C:\Users\jatin\.m2\repository\org\mockito\mockito-core\2.28.2\mockito-core-2.28.2.jar;C:\Users\jatin\.m2\repository\net\bytebuddy\byte-buddy\1.9.10\byte-buddy-1.9.10.jar;C:\Users\jatin\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.10\byte-buddy-agent-1.9.10.jar;C:\Users\jatin\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\jatin\.m2\repository\org\powermock\powermock-module-junit4\2.0.7\powermock-module-junit4-2.0.7.jar;C:\Users\jatin\.m2\repository\org\powermock\powermock-module-junit4-common\2.0.7\powermock-module-junit4-common-2.0.7.jar;C:\Users\jatin\.m2\repository\org\powermock\powermock-reflect\2.0.7\powermock-reflect-2.0.7.jar;C:\Users\jatin\.m2\repository\org\powermock\powermock-core\2.0.7\powermock-core-2.0.7.jar;C:\Users\jatin\.m2\repository\org\javassist\javassist\3.27.0-GA\javassist-3.27.0-GA.jar;C:\Users\jatin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\jatin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\jatin\.m2\repository\org\powermock\powermock-api-mockito2\2.0.7\powermock-api-mockito2-2.0.7.jar;C:\Users\jatin\.m2\repository\org\powermock\powermock-api-support\2.0.7\powermock-api-support-2.0.7.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\jatin"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="idea.version2020.1.1" value="true"/>
-    <property name="surefire.real.class.path" value="C:\Users\jatin\AppData\Local\Temp\surefire8219439938966190652\surefirebooter3512055139182640987.jar;C:\\Users\\jatin\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.5\\org.jacoco.agent-0.8.5-runtime.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\jatin\AppData\Local\Temp\surefire8943330718764763218\surefirebooter490900959942311915.jar;C:\\Users\\jatin\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.5\\org.jacoco.agent-0.8.5-runtime.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -51,6 +51,7 @@
     <property name="user.dir" value="D:\jatin\codeSetUp\CleanCodeTraining(TDD)\Mocking\shoppingcart"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="pmd.skip" value="true"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\jatin\apache-maven-3.6.2\bin;C:\Program Files\Git\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\jatin\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\jatin\AppData\Roaming\npm;C:\Users\jatin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;C:\Users\jatin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-14.0.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\bin;;."/>
@@ -61,5 +62,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testProcessOrder" classname="io.mohsinkd786.checkout.OrderProcessingServiceTest" time="1.695"/>
+  <testcase name="testDeleteOrder" classname="io.mohsinkd786.checkout.OrderProcessingServiceTest" time="1.188"/>
+  <testcase name="testProcessOrder" classname="io.mohsinkd786.checkout.OrderProcessingServiceTest" time="0.003"/>
+  <testcase name="testAddOrder" classname="io.mohsinkd786.checkout.OrderProcessingServiceTest" time="0.006"/>
+  <testcase name="testProcessOrderWithDefaultPaymentMode" classname="io.mohsinkd786.checkout.OrderProcessingServiceTest" time="0.005"/>
 </testsuite>

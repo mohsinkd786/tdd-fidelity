@@ -1,10 +1,8 @@
 package io.mohsinkd786.dtos;
 
-import io.mohsinkd786.checkout.CODPayment;
-
 public class Order {
 
-    private int id;
+    private int orderId;
 
     private boolean status;
 
@@ -22,12 +20,12 @@ public class Order {
         this.paymentMode = paymentMode;
     }
 
-    public int getId() {
-        return id;
+    public int getOrderId() {
+        return orderId;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setOrderId(int orderId) {
+        this.orderId = orderId;
     }
 
     public boolean isStatus() {

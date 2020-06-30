@@ -1,0 +1,4 @@
+#Thu Jun 25 15:14:20 IST 2020
+module-resource*?\:checkstyle-suppressions.xml=31F6A174587E47B66F3A071C444C45EBDC0AEF91
+module-resource*?\:checkstyle-xpath-suppressions.xml=2B5222E3EFBCAC1B3DA299C80F6F857F717A6406
+configuration*?=74C47F18F54735ECFA39ED3ECA8F5349A9A89C6D

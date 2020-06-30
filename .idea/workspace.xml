@@ -24,12 +24,36 @@
   <component name="ChangeListManager">
     <list default="true" id="e9b052e8-b92f-4088-9794-139bc0b85e82" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingcart/src/main/java/io/mohsinkd786/checkout/OrderProcessingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/src/main/java/io/mohsinkd786/checkout/OrderProcessingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingcart/src/main/java/io/mohsinkd786/checkout/ProcessingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/src/main/java/io/mohsinkd786/checkout/ProcessingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/src/main/java/io/mohsinkd786/dao/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/src/main/java/io/mohsinkd786/dao/OrderDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/src/main/java/io/mohsinkd786/dtos/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/src/main/java/io/mohsinkd786/dtos/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shoppingcart/src/test/java/io/mohsinkd786/checkout/OrderProcessingServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/src/test/java/io/mohsinkd786/checkout/OrderProcessingServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingcart/target/classes/io/mohsinkd786/checkout/OrderProcessingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/classes/io/mohsinkd786/checkout/OrderProcessingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingcart/target/classes/io/mohsinkd786/checkout/ProcessingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/classes/io/mohsinkd786/checkout/ProcessingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/src/test/java/io/mohsinkd786/checkout/builders/OrderBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/src/test/java/io/mohsinkd786/checkout/builders/OrderBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/target/classes/META-INF/shopping-cart.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/target/classes/io/mohsinkd786/dao/OrderDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/classes/io/mohsinkd786/dao/OrderDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/target/classes/io/mohsinkd786/dtos/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/classes/io/mohsinkd786/dtos/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/target/shopping-cart-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/shopping-cart-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/site/jacoco/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/target/site/jacoco/io.mohsinkd786.checkout/OrderProcessingService.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/site/jacoco/io.mohsinkd786.checkout/OrderProcessingService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/target/site/jacoco/io.mohsinkd786.checkout/OrderProcessingService.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/site/jacoco/io.mohsinkd786.checkout/OrderProcessingService.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/target/site/jacoco/io.mohsinkd786.checkout/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/site/jacoco/io.mohsinkd786.checkout/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/target/site/jacoco/io.mohsinkd786.checkout/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/site/jacoco/io.mohsinkd786.checkout/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/target/site/jacoco/io.mohsinkd786.dtos/Order.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/site/jacoco/io.mohsinkd786.dtos/Order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/target/site/jacoco/io.mohsinkd786.dtos/Order.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/site/jacoco/io.mohsinkd786.dtos/Order.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/target/site/jacoco/io.mohsinkd786.dtos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/site/jacoco/io.mohsinkd786.dtos/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/target/site/jacoco/io.mohsinkd786.dtos/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/site/jacoco/io.mohsinkd786.dtos/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/site/jacoco/jacoco.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/target/surefire-reports/2020-06-24T11-47-47_922.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/target/surefire-reports/TEST-io.mohsinkd786.checkout.OrderProcessingServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/surefire-reports/TEST-io.mohsinkd786.checkout.OrderProcessingServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/target/surefire-reports/io.mohsinkd786.checkout.OrderProcessingServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/surefire-reports/io.mohsinkd786.checkout.OrderProcessingServiceTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shoppingcart/target/test-classes/io/mohsinkd786/checkout/OrderProcessingServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/test-classes/io/mohsinkd786/checkout/OrderProcessingServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart/target/test-classes/io/mohsinkd786/checkout/builders/OrderBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingcart/target/test-classes/io/mohsinkd786/checkout/builders/OrderBuilder.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +111,7 @@
       <recent name="io.mohsinkd786.dtos" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OrderProcessingServiceTest">
+  <component name="RunManager" selected="Maven.shopping-cart [clean,-Dpmd.skip=true...]">
     <configuration name="OrderProcessingServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shopping-cart" />
       <extension name="coverage">
@@ -218,7 +242,7 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="shopping-cart [clean,install]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+    <configuration name="shopping-cart [clean,-Dpmd.skip=true...]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -230,6 +254,7 @@
             <option name="goals">
               <list>
                 <option value="clean" />
+                <option value="-Dpmd.skip=true" />
                 <option value="install" />
               </list>
             </option>
@@ -245,13 +270,13 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Maven.shopping-cart [clean,install]" />
-      <item itemvalue="Maven.product-service [site]" />
       <item itemvalue="JUnit.OrderProcessingServiceTest" />
       <item itemvalue="JUnit.OrderProcessingServiceTest.testProcessOrderWithDefaultPaymentMode" />
       <item itemvalue="JUnit.OrderProcessingServiceTest.testProcessOrder" />
       <item itemvalue="JUnit.OrderProcessingServiceTest.testAddOrder" />
       <item itemvalue="JUnit.OrderProcessingServiceTest.testDeleteOrder" />
+      <item itemvalue="Maven.shopping-cart [clean,-Dpmd.skip=true...]" />
+      <item itemvalue="Maven.product-service [site]" />
     </list>
     <recent_temporary>
       <list>
@@ -293,12 +318,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="407" y="65" key="#Auto_Import" timestamp="1593025570240">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="407" y="65" key="#Auto_Import/0.0.1280.720@0.0.1280.720" timestamp="1593025570240" />
+    <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593078115837">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1593078115837" />
     <state x="446" y="67" key="#com.intellij.ide.util.MemberChooser" timestamp="1593026582645">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -315,38 +345,38 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="423" height="438" key="DebuggerActiveHint/0.0.1280.720@0.0.1280.720" timestamp="1593077005120" />
-    <state width="1237" height="219" key="GridCell.Tab.0.bottom" timestamp="1593077319200">
+    <state width="1237" height="128" key="GridCell.Tab.0.bottom" timestamp="1593078255218">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="219" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1593077319200" />
-    <state width="1237" height="219" key="GridCell.Tab.0.center" timestamp="1593077319200">
+    <state width="1237" height="128" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1593078255218" />
+    <state width="1237" height="128" key="GridCell.Tab.0.center" timestamp="1593078255218">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="219" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1593077319200" />
-    <state width="1237" height="219" key="GridCell.Tab.0.left" timestamp="1593077319200">
+    <state width="1237" height="128" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1593078255218" />
+    <state width="1237" height="128" key="GridCell.Tab.0.left" timestamp="1593078255217">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="219" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1593077319200" />
-    <state width="1237" height="219" key="GridCell.Tab.0.right" timestamp="1593077319200">
+    <state width="1237" height="128" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1593078255217" />
+    <state width="1237" height="128" key="GridCell.Tab.0.right" timestamp="1593078255218">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="219" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1593077319200" />
-    <state width="1237" height="219" key="GridCell.Tab.1.bottom" timestamp="1593077272685">
+    <state width="1237" height="128" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1593078255218" />
+    <state width="1237" height="219" key="GridCell.Tab.1.bottom" timestamp="1593077343818">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="219" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1593077272685" />
-    <state width="1237" height="219" key="GridCell.Tab.1.center" timestamp="1593077272685">
+    <state width="1237" height="219" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1593077343818" />
+    <state width="1237" height="219" key="GridCell.Tab.1.center" timestamp="1593077343818">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="219" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1593077272685" />
-    <state width="1237" height="219" key="GridCell.Tab.1.left" timestamp="1593077272684">
+    <state width="1237" height="219" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1593077343818" />
+    <state width="1237" height="219" key="GridCell.Tab.1.left" timestamp="1593077343818">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="219" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1593077272684" />
-    <state width="1237" height="219" key="GridCell.Tab.1.right" timestamp="1593077272685">
+    <state width="1237" height="219" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1593077343818" />
+    <state width="1237" height="219" key="GridCell.Tab.1.right" timestamp="1593077343818">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="219" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1593077272685" />
+    <state width="1237" height="219" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1593077343818" />
     <state x="297" y="161" key="run.anything.popup" timestamp="1593068117587">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -357,17 +387,17 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/shoppingcart/src/test/java/io/mohsinkd786/checkout/OrderProcessingServiceTest.java</url>
-          <line>98</line>
+          <line>97</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/shoppingcart/src/test/java/io/mohsinkd786/checkout/OrderProcessingServiceTest.java</url>
-          <line>64</line>
+          <line>63</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/shoppingcart/src/test/java/io/mohsinkd786/checkout/OrderProcessingServiceTest.java</url>
-          <line>80</line>
+          <line>79</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -382,17 +412,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/shoppingcart/src/test/java/io/mohsinkd786/checkout/OrderProcessingServiceTest.java</url>
-          <line>96</line>
+          <line>95</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/shoppingcart/src/test/java/io/mohsinkd786/checkout/OrderProcessingServiceTest.java</url>
-          <line>36</line>
+          <line>35</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/shoppingcart/src/test/java/io/mohsinkd786/checkout/OrderProcessingServiceTest.java</url>
-          <line>32</line>
+          <line>31</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>

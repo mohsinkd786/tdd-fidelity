@@ -15,7 +15,7 @@ public class OrderDao {
     }
 
     public Boolean deleteOrder(Order order) {
-        return listOfOrder.removeIf(e -> e.getId() == order.getId());
+        return listOfOrder.removeIf(order1 -> order1.getOrderId() == order.getOrderId());
     }
 
     public List<Order> getOrders() {
