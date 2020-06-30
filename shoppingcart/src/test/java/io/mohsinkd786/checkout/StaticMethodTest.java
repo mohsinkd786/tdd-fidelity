@@ -13,6 +13,7 @@ import org.powermock.core.classloader.annotations.PrepareForTest;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.powermock.api.mockito.PowerMockito.mockStatic;
 
 //@ExtendWith(PowerMockRunner.class)
 @PrepareForTest(fullyQualifiedNames = "io.mohsinkd786.checkout.*")
@@ -22,7 +23,7 @@ public class StaticMethodTest {
     @Test
     public void testStaticMethods() {
 
-        PowerMockito.mockStatic(OrderProcessingService.class); // only incase of static methods
+        mockStatic(OrderProcessingService.class); // only incase of static methods
 
         PowerMockito.when(OrderProcessingService.defaultPayment()).thenReturn("CASH");
 
