@@ -80,7 +80,7 @@ public class ProductServiceImpl implements ProductService {
         int products = ProductsGenerator.items().size();
         //int productsSold = 2;
 
-        //int availableProducts = products - productsSold;
+        //int availableProducts = products - productsSold;..
         int availableProducts = ProductsGenerator.items().size() - productsSold;
     }
 }
