@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.5.1" timestamp="2020-06-23T22:31:22.876">
+<file name="E:\Auto1\tdd-fidelity\src\main\java\apis\CalculatorApi.java">
+<violation beginline="9" endline="9" begincolumn="30" endcolumn="49" rule="LongVariable" ruleset="Naming" package="main.java.apis" class="CalculatorApi" method="calculate" variable="calculatorApiService" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like calculatorApiService
+</violation>
+</file>
+</pmd>
