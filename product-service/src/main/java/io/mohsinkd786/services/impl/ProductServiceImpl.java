@@ -6,6 +6,8 @@ import io.mohsinkd786.services.ProductService;
 import io.mohsinkd786.services.utils.ProductsGenerator;
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -39,31 +41,20 @@ public class ProductServiceImpl implements ProductService {
         double sum = calculateSum(itemsPurchased);
     }
 
-
-    //TODO: refactor this method , if need be move to a concrete class
-    private int getItemCount(List<Integer> itemsPurchased) {
-        int count = 0;
-        // step 2
-        if (!itemsPurchased.isEmpty()) {
-            for (Integer _in : itemsPurchased) {
-                count += _in;
-            }
-        }
-        return count;
+    private static int getItemCount(List<Integer> itemsPurchased) {
+        return itemsPurchased.stream().mapToInt(Integer::intValue).sum();
     }
 
     //TODO: refactor this method  , if need be move to a concrete class
     private void getItemCountVoid(List<Integer> itemsPurchased, int count) {
         // step 2
         if (itemsExist(itemsPurchased) && count == 0) { // inline method
-            for (Integer _in : itemsPurchased) {
-                count += _in;
-            }
+            count=getItemCount(itemsPurchased);
         }
     }
 
     private boolean itemsExist(List<Integer> items) {
-        return (!items.isEmpty() && items.get(0) != -1) ? true : false;
+        return !items.isEmpty() && items.get(0) != -1;
     }
 
     private double calculateSum(List<Integer> itemsPurchased) {
