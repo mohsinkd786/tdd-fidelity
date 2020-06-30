@@ -24,3 +24,13 @@ public class ProductController {
         return productService.payment(productRequest);
     }
 }
+
+//curl --location --request POST 'http://localhost:5233/products/pay' \
+//        --header 'Content-Type: application/json' \
+//        --data-raw '{
+//        "purchasedItems":[
+//        1,
+//        2
+//        ],
+//        "amountPaid": 75000
+//        }'
