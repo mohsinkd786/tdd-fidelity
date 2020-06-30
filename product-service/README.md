@@ -1,10 +1,11 @@
 
 
+#### Run Integration Tests & Generate Rest Docs
+./gradlew asciidoctor
 
 #### Run Cucumber Tests
 
 ./gradlew cucumber
-
 
 
 #### Refactoring Techniques
