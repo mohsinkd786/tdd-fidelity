@@ -9,4 +9,18 @@ import java.util.List;
 public class ProductRequest implements Serializable {
     List<Integer> purchasedItems;
     double amountPaid;
+
+    public double getAmountPaid() {
+        return amountPaid;
+    }
+
+    public List<Integer> getPurchasedItems() {
+        return purchasedItems;
+    }
+
+    public void setAmountPaid(int i) {
+    }
+
+    public void setPurchasedItems(List<Integer> asList) {
+    }
 }

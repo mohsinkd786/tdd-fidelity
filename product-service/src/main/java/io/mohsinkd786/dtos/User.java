@@ -11,6 +11,9 @@ public class User {
     private String email;
     private Address address;
 
+    public void setAddress(Address address) {
+    }
+
     @Data
     public static class Address{
         private int id;
