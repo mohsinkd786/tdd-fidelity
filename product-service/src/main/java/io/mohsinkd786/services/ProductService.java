@@ -5,4 +5,6 @@ import io.mohsinkd786.dtos.ProductRequest;
 public interface ProductService {
 
     double payment(ProductRequest productRequest);
+
+    void processCheckout(ProductRequest productRequest);
 }
