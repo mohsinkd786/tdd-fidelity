@@ -30,47 +30,8 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public void processCheckout(ProductRequest productRequest) { // child
-        // step 1
-        List<Integer> itemsPurchased = productRequest.getPurchasedItems();
-
-        int count = getItemCount(itemsPurchased);
-        // step 3
-        double sum = calculateSum(itemsPurchased);
-    }
-
-
-    //TODO: refactor this method , if need be move to a concrete class
-    private int getItemCount(List<Integer> itemsPurchased) {
-        int count = 0;
-        // step 2
-        if (!itemsPurchased.isEmpty()) {
-            for (Integer _in : itemsPurchased) {
-                count += _in;
-            }
-        }
-        return count;
-    }
-
-    //TODO: refactor this method  , if need be move to a concrete class
-    private void getItemCountVoid(List<Integer> itemsPurchased, int count) {
-        // step 2
-        if (itemsExist(itemsPurchased) && count == 0) { // inline method
-            for (Integer _in : itemsPurchased) {
-                count += _in;
-            }
-        }
-    }
-
-    private boolean itemsExist(List<Integer> items) {
-        return (!items.isEmpty() && items.get(0) != -1) ? true : false;
-    }
-
-    private double calculateSum(List<Integer> itemsPurchased) {
-        return itemsPurchased
-                .stream()
-                .mapToDouble(Integer::intValue)
-                .sum();
+    public void processCheckout(ProductRequest productRequest) {
+        // child
     }
 
     private void compute(int productsSold) {
@@ -79,6 +40,5 @@ public class ProductServiceImpl implements ProductService {
 
         //int availableProducts = products - productsSold;
         int availableProducts = ProductsGenerator.items().size() - productsSold;
-
     }
 }
