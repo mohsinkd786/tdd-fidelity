@@ -15,7 +15,7 @@ public class ProductServiceImpl implements ProductService {
     private final List<Item> items = ProductsGenerator.items();
 
     @Override
-    public double payment(ProductRequest productRequest) {
+    public double payment(ProductRequest productRequest) { // remain in parent
         double totalPayment = items
                 .stream()
                 .filter(item ->
@@ -30,7 +30,7 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public void processCheckout(ProductRequest productRequest) {
+    public void processCheckout(ProductRequest productRequest) { // child
         // step 1
         List<Integer> itemsPurchased = productRequest.getPurchasedItems();
 
