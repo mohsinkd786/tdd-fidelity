@@ -42,23 +42,16 @@ public class ProductServiceImpl implements ProductService {
 
     //TODO: refactor this method , if need be move to a concrete class
     private int getItemCount(List<Integer> itemsPurchased) {
-        int count = 0;
+//        int count = 0;
         // step 2
-        if (!itemsPurchased.isEmpty()) {
-            for (Integer _in : itemsPurchased) {
-                count += _in;
-            }
-        }
-        return count;
+        return !itemsPurchased.isEmpty() ? calculateSum(itemsPurchased) : 0;
     }
 
     //TODO: refactor this method  , if need be move to a concrete class
     private void getItemCountVoid(List<Integer> itemsPurchased, int count) {
         // step 2
         if (itemsExist(itemsPurchased) && count == 0) { // inline method
-            for (Integer _in : itemsPurchased) {
-                count += _in;
-            }
+              calculateSum(itemsPurchased)
         }
     }
 
