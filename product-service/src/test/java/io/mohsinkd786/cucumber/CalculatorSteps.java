@@ -43,6 +43,11 @@ public class CalculatorSteps {
         total = calculator.add(num1, num2);
     }
 
+    @When("^I multiply (-?\\d+) and (-?\\d+)$")
+    public void testMultiply(int num1, int num2) throws Throwable {
+        total = calculator.multiply(num1, num2);
+    }
+
     @Then("^the result should be (-?\\d+)$")
     public void validateResult(int result) throws Throwable {
         Assert.assertThat(total, Matchers.equalTo(result));
