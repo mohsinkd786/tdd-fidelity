@@ -1,5 +1,7 @@
 package io.mohsinkd786.cucumber;
 
+import io.cucumber.java.After;
+import io.cucumber.java.AfterStep;
 import io.mohsinkd786.services.impl.Calculator;
 import org.hamcrest.Matchers;
 import org.junit.Assert;
@@ -9,7 +11,7 @@ import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-
+// Glue Code
 public class CalculatorSteps {
 
     private int total;
@@ -19,6 +21,14 @@ public class CalculatorSteps {
     @Before
     private void init() {
         total = -999;
+
+    }
+    @AfterStep
+    private void stepTearDown(){
+
+    }
+    @After
+    private void tearDown(){
 
     }
 

@@ -17,6 +17,7 @@ import io.mohsinkd786.services.impl.BookStore;
 
 import static org.junit.Assert.*;
 
+// Glue code
 // Gherkin syntax
 public class BookStoreSteps {
 
