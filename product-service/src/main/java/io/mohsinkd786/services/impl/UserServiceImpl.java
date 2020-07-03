@@ -19,6 +19,7 @@ public class UserServiceImpl {
     public void transform(){
         User user = new User();
         user.setAddress(new User.Address());
+
         // call mapper
         Employee employee = userMapper.map(user,Employee.class);
     }

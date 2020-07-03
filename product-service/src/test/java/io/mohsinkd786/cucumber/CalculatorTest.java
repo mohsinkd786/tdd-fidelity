@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = {"classpath:features/calculator.feature", "classpath:features/calculator-scenario.feature"}
-        , plugin = {"pretty", "json:build/reports/json/calculator.json"}
+
 )
 public class CalculatorTest {
 }

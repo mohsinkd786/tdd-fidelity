@@ -1,7 +1,7 @@
 Feature: Calculator
   As a user
-  I want to use a calculator to add numbers
-  So that I don't need to add myself
+  I want to use a calculator to operate numbers
+  So that I don't need to operate myself
 
   Scenario: Add two numbers -2 & 3
     Given I have a calculator
@@ -22,3 +22,14 @@ Feature: Calculator
     Given I have a calculator
     When I add -1 and -10
     Then the result should be -11
+
+  Scenario: Multiply two numbers -2 & 3
+    Given I have a calculator
+    When I multiply -2 and 3
+    Then the result should be -6
+
+  Scenario: Multiply two numbers 5 & 2
+    Given I have a calculator
+    When I multiply 5 and 2
+    Then the result should be 12
+
